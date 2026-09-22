@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — BackTrack: Parked Car Radar</title>
+  <style>
+    :root {
+      --bg: #070b14;
+      --card-bg: #0f172a;
+      --border: #1e293b;
+      --cyan: #06b6d4;
+      --emerald: #10b981;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+    }
+    @media (max-width: 640px) {
+      .container { padding: 24px 16px; border-radius: 16px; }
+    }
+    .header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 14px;
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid var(--emerald);
+      color: var(--emerald);
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    h1 { font-size: 28px; color: #fff; margin-bottom: 8px; }
+    .date { color: var(--muted); font-size: 13px; }
+    h2 { font-size: 20px; color: var(--cyan); margin-top: 32px; margin-bottom: 12px; }
+    p, li { color: #d1d5db; font-size: 15px; margin-bottom: 12px; }
+    ul { padding-left: 24px; margin-bottom: 16px; }
+    a { color: var(--cyan); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .highlight-card {
+      background: rgba(6, 182, 212, 0.08);
+      border: 1px solid rgba(6, 182, 212, 0.3);
+      border-radius: 14px;
+      padding: 20px;
+      margin-bottom: 24px;
+    }
+    .nav-links {
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      gap: 20px;
+      font-size: 14px;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <span class="badge">100% On-Device • Zero Cloud Tracking</span>
+      <h1>Privacy Policy</h1>
+      <div class="date">Effective Date: September 22, 2026</div>
+    </div>
+
+    <div class="highlight-card">
+      <strong>Core Privacy Pledge:</strong> BackTrack does not sell, rent, monetize, or transmit your personal location coordinates or vehicle whereabouts to any remote servers. Your GPS waypoints, garage memos, and parking logs are stored 100% locally on your personal device.
+    </div>
+
+    <h2>1. Information We Process</h2>
+    <p>BackTrack operates on a strict local-first architecture. The application accesses device hardware sensors solely to facilitate real-time guidance:</p>
+    <ul>
+      <li><strong>Precise Geolocation (GPS):</strong> Used in real time to calculate distance, bearing, and reverse breadcrumb paths back to your saved parking spot. Coordinates are stored in local device storage and are never uploaded to any cloud database.</li>
+      <li><strong>Device Compass & Motion Sensors:</strong> Gyroscope and accelerometer readings are analyzed on-device to dynamically point directional arrows in the direction you are actively walking.</li>
+      <li><strong>Camera:</strong> Used strictly for the live 3D Augmented Reality (AR) HUD reticle overlay and client-side optical character recognition (OCR) for street parking signs. Video frames are processed in volatile memory and are never recorded or transmitted off-device.</li>
+      <li><strong>Microphone:</strong> Used only when you choose to record a voice landmark memo in the parking sheet. Audio recordings remain in local application storage.</li>
+      <li><strong>Bluetooth:</strong> Used solely to estimate proximity to your parked vehicle's Bluetooth audio system or local BLE beacons.</li>
+    </ul>
+
+    <h2>2. In-App Purchases & Apple Subscriptions</h2>
+    <p>All subscription billing, free trial management, and transaction validations are processed exclusively by Apple through <strong>StoreKit 2</strong>. BackTrack does not collect, process, or store credit card numbers, billing addresses, or financial data. Your purchases are governed by Apple's Privacy Policy.</p>
+
+    <h2>3. Third-Party Analytics & Tracking</h2>
+    <p>BackTrack contains <strong>zero third-party advertising SDKs</strong>, zero behavioral analytics trackers (such as Google Analytics or Meta Pixel), and zero data brokers. You will never see targeted ads or cross-app tracking within BackTrack.</p>
+
+    <h2>4. Data Retention and Deletion</h2>
+    <p>Because all parking spots, photos, and breadcrumbs are stored locally on your device, you have full autonomy over your data:</p>
+    <ul>
+      <li>Deleting a parking spot immediately and permanently removes all associated coordinates, floor notes, and photos from your storage.</li>
+      <li>Deleting the BackTrack app from your device purges all local databases immediately.</li>
+    </ul>
+
+    <h2>5. Children's Privacy</h2>
+    <p>BackTrack does not knowingly collect or solicit any personal information from children under the age of 13. The application is rated 4+ on the Apple App Store.</p>
+
+    <h2>6. Contact Us</h2>
+    <p>If you have questions or feedback regarding this Privacy Policy, please contact our privacy officer directly:</p>
+    <p><strong>Email:</strong> <a href="mailto:dolair02@gmail.com">dolair02@gmail.com</a><br>
+    <strong>Support Desk:</strong> <a href="support.html">BackTrack Support Center</a></p>
+
+    <div class="nav-links">
+      <a href="index.html">&larr; Back to Website</a>
+      <a href="support.html">Customer Support</a>
+      <a href="terms.html">Terms of Service</a>
+      <a href="mailto:dolair02@gmail.com">Contact Developer</a>
+    </div>
+  </div>
+</body>
+</html>
